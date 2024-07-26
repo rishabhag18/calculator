@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <center class="calculator">
+      <div class="border-box">
+        <div id="equation"></div>
+        <button class="keypad" id="Clear" onclick="clearIt()">C</button>
+        <button class="keypad" id="key1" onclick="One()" value="1">1</button>
+        <button class="keypad" id="key2" onclick="Two()" value="2">2</button>
+        <br />
+        <button class="keypad" id="Minus" onclick="Substract()" value="-">
+          -
+        </button>
+        <button class="keypad" id="key3" onclick="Three()" value="3">3</button>
+        <button class="keypad" id="key4" onclick="Four()" value="4">4</button>
+        <br />
+        <button class="keypad" id="Multiply" onclick="Multiply()" value="*">
+          x
+        </button>
+        <button class="keypad" id="key5" onclick="Five()" value="5">5</button>
+        <button class="keypad" id="key6" onclick="Six()" value="6">6</button>
+        <br />
+        <button class="keypad" id="Divide" onclick="Divide()" value="/">
+          /
+        </button>
+        <button class="keypad" id="key7" onclick="Seven()" value="7">7</button>
+        <button class="keypad" id="key8" onclick="Eight()" value="8">8</button>
+        <br />
+        <button class="keypad" id="Add" onclick="Add()" value="+">+</button>
+        <button class="keypad" id="key9" onclick="Nine()" value="9">9</button>
+        <button class="keypad" id="key0" onclick="Zero()" value="0">0</button>
+        <br />
+        <button class="keypad" id="Equals" onclick="answer()">=</button>
+        <button class="keypad" id="Dot" onclick="Dot()" value=".">.</button>
+      </div>
+    </center>
+    <script src="./index.js"></script>
+  </body>
+</html>
