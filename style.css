@@ -19,6 +19,7 @@
     text-align: end;
     border-radius:15px ;
     background: #ffffff;
+    word-wrap:break-word;
 }
 .border-box{
     border:2px solid grey;
